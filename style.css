@@ -1,0 +1,33 @@
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+form {
+  padding: 10px 20px;
+  border: 1px solid black;
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.actBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+textarea {
+  display: block;
+  resize: none;
+  width: 300px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+input,
+select {
+  margin-left: 20px;
+}
